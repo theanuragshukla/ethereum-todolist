@@ -1,0 +1,20 @@
+.navMain {
+	width: 100vw;
+	height: 70px;
+	background-color: darkslateblue;
+	color: #fff;
+	justify-content: space-between;
+}
+
+.navMain > * {
+	margin: auto 20px;
+}
+.connect button{
+	min-width: 150px;
+	min-height: 40px;
+	border-radius: 200vmax;
+	background-color: cadetblue;
+	border:none;
+	margin: auto 20px;
+	font-size: 1rem;
+}

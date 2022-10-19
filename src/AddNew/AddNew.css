@@ -1,0 +1,32 @@
+.addNew {
+	height: 100px;
+	width: 90%;
+	margin: 40px auto;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+
+}
+.inp {
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0 50px 0 0;
+}
+.inp input {
+	min-width:400px;
+	height: 100%;
+	font-size: 1rem;
+	border-radius: 200vmax;
+	padding-left: 30px;
+	border: none;
+}
+.btn button {
+	min-width: 150px;
+	border: none;
+	height: 50px;
+	font-size: 1rem;
+	cursor: pointer;
+	border-radius: 200vmax;
+}
