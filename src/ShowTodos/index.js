@@ -5,7 +5,7 @@ import Item from "../Item";
 const ShowTodos = ({todos}) => {
 	return (
 		<>
-		<div className="main">
+		<div className="flex main">
 		{
 			todos.map(todo=>{
 				return	 <Item key={todo[0]._hex} todo={todo} ></Item>

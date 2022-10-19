@@ -86,9 +86,8 @@ const NavBar =  () => {
 		<h2>Todo_list</h2>
 		</div>
 		<div className="flex account">
-		<div className="flex activeAcc">{user.connected ? user.address : "wallet not connected"}</div>
 		<div className="flex connect">
-		<button onClick={user.connected ? ()=>{} :connectWallet}>{user.connected ? "Connected" : "Connect"}</button>
+		<button onClick={user.connected ? ()=>{} :connectWallet}>{user.connected ? `${user.address.toString().substring(0,5)}...${user.address.toString().substring(38, 42)}` : "Connect"}</button>
 		</div>
 		</div>
 		</div>

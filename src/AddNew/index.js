@@ -52,21 +52,20 @@ const addTask= async (e,temp, setTodos, user)=>{
 
 const AddNew =(props) => {
 const {user, setUser} = useContext(UserContext)
+
 	const [temp ,setTemp] = useState("")
 	return (
 		<>
 		<div className="addNew">
 		<div className="inp">
-		<input placeholder="Enter new task" type="text" value={temp} onChange={e=>setTempData({e, setTemp})}/>
-		</div>
-		<div className="btn">
-		<button onClick={(e)=>{
-			
+		<input placeholder="Enter new task" type="text" value={temp} onChange={e=>setTempData({e, setTemp})} onKeyDown={(e)=>{
+			if(e.keyCode==13){
 	if(!user.connected)
 		alert("connect your wallet first")
 			addTask(e, temp, props.setTodos, user)
 			setTemp("")
-		}}>Add</button>
+			}
+		}}/>
 		</div>
 		</div>
 		</>

@@ -1,16 +1,27 @@
 .item {
-	justify-content: space-between;
-	background-color: blanchedalmond;
-	width: 100%;
-	min-height: 60px;
+	justify-content: flex-start;
+	width: min(300px , 90%);
+	min-height: 200px;
+	flex-direction: column;
+	position: relative;
+	height: auto;
+	border: 2px solid darkslateblue;
+	border-radius: 10px;
+}
+.item:hover{
+	background-color:rgba(72, 61, 139, 0.2);
+}
+.content {
+	min-height: 150px;
+	padding: 5px;
 }
 
-.delete {
-	margin: auto 30px;
+.options {
+	height: 50px;
+	width: 100%;
+
 }
-.title {
-	margin: auto 30px;
-}
+
 .title h1 {
 font-size: 1.2rem;
 font-weight: 600;
@@ -20,7 +31,16 @@ font-weight: 600;
 	min-width: 100px;
 	min-height: 40px;
 	border-radius: 200vmax;
-	background-color: #f00;
 	font-size: 1rem;
-	border:none;
+}
+@media only screen and (max-width: 762px){
+	.item{
+		width:90%;
+		min-height: 0;
+		height: auto;
+	}
+	.content{
+		min-height: 0;
+		height: auto;
+	}
 }

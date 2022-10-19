@@ -40,13 +40,19 @@ const Item = ({todo}) => {
 	return (
 		<>
 		<div className="flex item">
-		<div className="title">
+	
+		<div class="content">
+	<div className="title">
 	<h1>{todo[2]}</h1>
 		</div>
-		<div className="delete">
+		</div>
+	
+		<div class="flex options">
+			<div className="delete">
 		<button onClick={deleteTask}>Delete</button>
 		</div>
 		
+		</div>
 		</div>
 	</>
 	)

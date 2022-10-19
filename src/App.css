@@ -3,16 +3,26 @@
 	padding: 0;
 }
 :root{
-	
+	--yellow:blanchedalmond;
+	--blue:darkslateblue;
 }
 html {
 	font-size: 16px;
 }
 button {
+	background-color: var(--yellow);
 	cursor: pointer;
+	color:var(--blue);
+	border: 2px solid var(--blue);
+	font-size: 1.1rem;
+}
+button:hover{
+	background-color: var(--blue);
+	color: var(--yellow);
+	border: 2px solid var(--yellow);
 }
 body {
-	background-color: darkslateblue;
+	background-color: var(--blue);
 	min-height: 100vh;
 	margin: 0 auto 100px auto;
 }

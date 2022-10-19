@@ -1,20 +1,29 @@
 .navMain {
-	width: 100vw;
+	width: 100%;
 	height: 70px;
 	background-color: darkslateblue;
 	color: #fff;
 	justify-content: space-between;
+	overflow: hidden;
 }
 
+.logo h2{
+	color: var(--yellow);
+}
 .navMain > * {
-	margin: auto 20px;
+	margin: auto 10px;
 }
 .connect button{
 	min-width: 150px;
 	min-height: 40px;
 	border-radius: 200vmax;
-	background-color: cadetblue;
-	border:none;
-	margin: auto 20px;
 	font-size: 1rem;
+	padding: 10px;
+}
+@media only screen and (max-width: 400px){
+	.navMain{
+		justify-content: center;
+		align-self: center;
+		flex-direction: column;
+	}
 }
