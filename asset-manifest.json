@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ethereum-todolist/static/css/main.72c8f783.css",
-    "main.js": "/ethereum-todolist/static/js/main.eed10404.js",
+    "main.css": "/ethereum-todolist/static/css/main.99ad597c.css",
+    "main.js": "/ethereum-todolist/static/js/main.f1ac985d.js",
     "static/js/787.914dd96f.chunk.js": "/ethereum-todolist/static/js/787.914dd96f.chunk.js",
     "index.html": "/ethereum-todolist/index.html",
-    "main.72c8f783.css.map": "/ethereum-todolist/static/css/main.72c8f783.css.map",
-    "main.eed10404.js.map": "/ethereum-todolist/static/js/main.eed10404.js.map",
+    "main.99ad597c.css.map": "/ethereum-todolist/static/css/main.99ad597c.css.map",
+    "main.f1ac985d.js.map": "/ethereum-todolist/static/js/main.f1ac985d.js.map",
     "787.914dd96f.chunk.js.map": "/ethereum-todolist/static/js/787.914dd96f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72c8f783.css",
-    "static/js/main.eed10404.js"
+    "static/css/main.99ad597c.css",
+    "static/js/main.f1ac985d.js"
   ]
 }
